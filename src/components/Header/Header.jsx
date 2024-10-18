@@ -169,9 +169,11 @@ const Header = ({ isDarkMode, setDarkMode }) => {
 
             <div className="nav_right">
               <button className="register_btn">
-                <Link to="/register">Register</Link>
+                <Link to="#">Register</Link>
               </button>
-              {/* <button className="register_btn" ><Link to="/login">Login</Link></button> */}
+              {/* <button className="register_btn">
+                <Link to="/login">Login</Link>
+              </button> */}
             </div>
           </div>
         </div>
